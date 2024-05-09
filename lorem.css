@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    /* overflow: hidden; */
+
+}
+button{
+    background-color: rgb(254, 199, 96);
+}
