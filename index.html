@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorem</title>
-    <link rel="stylesheet" href="./lorem.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorem Ipsum Generator</title>
+  <link rel="stylesheet" href="lorem.css">
 </head>
-
 <body>
-    <div class="container">
-        <h2>TIRED OF BORING LOREM IPSUM?</h2>
-        <form class="lorem-form">
-            <label class="amount">Paragraph</label>
-            <input type="number" placeholder="5" id="amount"/>
-            <button>Generate</button>
-        </form>
-        <article class="lorem-text"></article>
-    </div>
-    
+  <div class="container">
+    <h1>Lorem Ipsum Text Generator</h1>
+    <form id="lorem-form">
+      <label for="amount">Paragraphs:</label>
+      <input type="number" id="amount" min="1" max="10" value="1">
+      <button type="submit">Generate</button>
+    </form>
+    <div class="lorem-text" id="lorem-text"></div>
+  </div>
 
-    <script src="./lorem.js"></script>
+  <script src="lorem.js"></script>
 </body>
 </html>
